@@ -21,7 +21,7 @@ library(ggplot2)
 knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
-_Write your comments about image 1 below_
+_The scale of the bars are off, width randomly changes in bars, changing units in the same column, there is no need for the people its weird, Chinese ain't a language its mandarin, the use of a comma instead of a decimal point, its not needed to clarify speakers after every number it's clear. _
 
 
 
@@ -33,7 +33,7 @@ _Write your comments about image 1 below_
 knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
-_Write your comments about image 2 below_
+_There needs to be a legend, add colours instead of grayscale, this could be represented in a more clear manner that would make sense, having points in a graph would demonstrate a possible correlation, no units._
 
 
 
@@ -44,7 +44,7 @@ _Write your comments about image 2 below_
 knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 ```
 
-_Write your comments about image 3 below_
+_Whats going on, there is no clear title, the overlap of the colours is an eye sore, we need another legend, size of circles aren't specified, there are no units for life expectancy and there is no possible unit for rule of law _
 
 
 
@@ -55,7 +55,7 @@ _Write your comments about image 3 below_
 knitr::include_graphics("img/global-income-dist.PNG")
 ```
 
-_Write your comments about image 4 below_
+_The y axis title is incredibly hard to read, the graph is trying to show to much information, the labels on the graph are unspecific are the groups aren't exclusive, the logarithmic nature of scale is awkward_
 
 
 
