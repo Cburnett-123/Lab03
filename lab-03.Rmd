@@ -124,32 +124,33 @@ ggplot(data = staff_long,
 
 ```
 
-## Exercise 5
+## Exercise 5&6
 
 ```{r mutate-year}
 ## Uncomment and complete the following code
 
-#staff_long <- staff_long %>%
-#  mutate(year = ______(year))
+staff_long <- staff_long %>%
+  mutate(year =as.numeric(year))
 ```
 
 
 ```{r working-line-plot}
 # Write your code for Exercise 5 here
-
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type,
+                     )) +
+  labs(title = "Staff Employment Trends",
+       subtitle = " 1975-2011",
+       
+       
+       )+
+  geom_line()
 
 
 ```
 
-## Exercise 6
-
-```{r better-line-plot}
-# Write your code for Exercise 6 here
-
-
-
-
-```
 
 ## Exercise 7
 
